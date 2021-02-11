@@ -1,6 +1,8 @@
 body {
-  background-image: linear-gradient(to bottom right, #1b98e0, #e8f1f2);
-  /*background-color: #e8f1f2;*/
+  /*background-image: url(/Imagens/fundo2.jpeg);*/
+  background-color: #e8f1f2;
+  background-size: 1350px 2000px;
+  background-repeat: no-repeat, repeat;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
 }
