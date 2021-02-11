@@ -41,6 +41,16 @@ li {
   margin-left: 10px;
 }
 .menu {
-  color: blue;
-  font-size: 1.8em;
+  color:#475550;
+  font-size: 1.6em;
+  padding: 10px 10px;
+  border-color: black;
+  text-decoration: none;
+  /*top, right, bottom, left*/
+}
+.button {
+  color: white;
+  background-color: blue;
+  border-radius: 20%;
+  padding-left: 15px;
 }
