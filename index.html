@@ -6,70 +6,21 @@
   <title>Mariana Mohr - Dev Web</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <style>
-    /*
-    body {
-      background-image: url(/Imagens/fundo.jpg);
-      background-size: 5000px 5000px;
-      background-repeat: no-repeat, repeat;
-      font-size: 17px;
-    }
-
-    img {
-      border-radius: 50%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 25%;
-    }
-
-    img1 {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 25%;
-    }
-    
-    h1 {
-      font-family: sans-serif;
-      color: black;
-      font-size: 2, 5em;
-      text-decoration: underline;
-      text-align: center;
-
-    }
-
-    h2 {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 2em;
-    }
-
-    h3 {
-      font-family: 'Courier New', Courier, monospace;
-      color: rgb(34, 139, 82);
-      font-size: 1, 5em;
-    }
-
-    h4 {
-      font-family: 'Courier New', Courier, monospace;
-      color: aqua;
-    }
-  */
-  </style>
+ 
 </head>
 
 <body>
   <!-- Exercícios
       Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
     -->
-  <div>
-    <a class="menu" href="#experiencias"> Experiências</a>
-    <a class="menu" href="#habilidades"> Habilidades</a>
-    <a class="menu" href="#trybe"> O que estou aprendendo na Trybe</a>
-    <a class="menu" href="#redes"> Redes Sociais</a>
-
-  </div>
+  <nav id="menu">
+    <ul >
+   <li><a  href="#experiencias"> Experiências</a></li>
+   <li><a  href="#habilidades"> Habilidades</a></li>
+   <li><a  href="#trybe"> O que estou aprendendo na Trybe</a></li>
+   <li><a  href="#redes"> Redes Sociais</a></li>
+  </ul>
+</nav>
 
 
   <div>
@@ -77,10 +28,13 @@
     <br>
   </div>
 
-  <div>
+  <div >
 
-    <img src="/Imagens/foto.jpeg" alt="Mariana está usando uma blusa vermelha com um blazer por cima e cabelo solto"
+    <img class="fotoPerfil" src="/Imagens/foto.jpeg" alt="Mariana está usando uma blusa vermelha com um blazer por cima e cabelo solto"
       title="Foto Mariana Mohr" width="300">
+      </div>
+
+      <div class="descritivo">
     <br>
     <p>Me chamo Mariana, tenho 31 anos e sou de Florianópolis - SC.
       Possuo <strong>experiência de 7 anos </strong>na área de análise de requisitos e gestão de projetos. Já trabalhei
@@ -138,7 +92,7 @@
   </div>
   <br>
   <div>
-    <h2 id="redes">Redes Sociais: </h2>
+    <h2>Redes Sociais: </h2>
     <a href="https://www.linkedin.com/in/mariana-mohr/" target="blank"> LinkedIn</a>
     <br>
     <a href="https://github.com/marianamohr/" target="brank"> GitHub</a>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:5500/dia_3/posicionamento/index.htm -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Posicionamento de elementos</title>
+    
+  <link rel="stylesheet" href="./Posicionamento de elementos_files/index.htm"></head>
+  <body>
+    <h1>Exercícios de fixação 3.3</h1>
+    <img src="./Posicionamento de elementos_files/39HLUyi" alt="jumpMario" class="super-mario">
+    <img src="./Posicionamento de elementos_files/fold_goomba_colorir.png" alt="gomba" class="goomba">
+    <p class="word">
+      Goomba, do something!
+    </p>
+    <img src="./Posicionamento de elementos_files/fala.jpg" alt="baloon" class="baloon">
+    <img src="./Posicionamento de elementos_files/2MV2bY0" alt="bowser" class="bowser">
+
+    <!-- Exercícios:
+- Posicione o Mário acima do Goomba.
+- Posicione a tag p para que fique dentro do balão de fala.
+- Posicione o balão para que se torne uma fala de Bowser.
+- Posicione os elementos para que tenham alguma distância entre si.
+  -->
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
