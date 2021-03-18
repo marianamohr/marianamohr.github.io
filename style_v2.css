@@ -1,130 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  /*background-image: linear-gradient(to top right,  #e8f1f2, #1b98e0);*/
-  /*background-color: #e8f1f2;*/
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Heebo', sans-serif;
   margin: 0px;
   border: 5px white solid;
+  width: 1300px;
 }
 
-#menu ul {
+.menu {
+  display: flex;
   background-color: pink;
-  padding: 10px;
-  margin: 0px;
-  list-style: none;
-  font-size: 1.1em;
-  width: 1340px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-#menu ul li {
-  padding-left: 169px;
-  display: inline;
-  border-width: 3px;
-}
-
-#menu ul li a {
-  padding: 2px 4px;
-  display: inline-block;
+.menu a {
   color: #13293d;
   text-decoration: none;
+  font-size: 18px;
 }
 
-#menu ul li a:hover {
+.menu a:hover {
   color: #006494;
   border-bottom: 3px solid #13293d;
 }
 
 #apresentacao {
-  width: 1200px;
-  height: 360px;
-  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 450px;
   background-color: rgb(16, 16, 100);
 }
 
 #apresentacao h1 {
+  width: 50%;
   color: white;
-}
-
-h1 {
-  position: absolute;
-  top: 39%;
-  left: 43%;
-  padding-bottom: 40px;
   text-align: center;
-  width: 550px;
   font-family: cursive;
   font-weight: 800;
 }
 
 .fotoPerfil {
-  position: absolute;
-  top: 23%;
-  left: 14%;
-  border-radius: 50%;
   width: 25%;
+  border-radius: 50%;
+  margin-top: 15%;
+  margin-bottom: 15%;
   border: 5px solid whitesmoke;
 }
 
 #quemsoueu {
-  width: 1200px;
-  height: 150px;
-  padding: 80px;
+  display: flex;
+  height: 400px;
+  padding: 40px;
   background-color: pink;
 }
 
 .descritivo {
-  position: absolute;
-  top: 100%;
-  left: 5%;
-  right: 5%;
   padding: 10px;
+  padding-top: 5%;
   line-height: 30px;
   text-align: center;
 }
 
 #experiencias {
-  width: 1340px;
   padding: 10px;
   background-color: rgb(16, 16, 100);
+}
 
+.vivencia-profissional {
+  width: 1250px;
 }
 
 #experiencias h2 {
   color: white;
-
 }
 
 #habilidades {
-  width: 1340px;
   padding: 10px;
-  
   background-color: pink;
 }
 
-.ladoDireito {
-  /*border: 1px solid black;*/
-  width: 45%;
-  display: inline-block;
-  vertical-align: top;
-  height: 183px;
+.habilidades-org {
+  display: flex;
+  margin-bottom: 5%;
 }
 
-.ladoEsquerdo {
-  /*border: 1px solid black;*/
-  width: 45%;
-  display: inline-block;
-  height: 183px;
+.img-fundo {
+  background-color: white;
+  width: 150px;
+  height: 190px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  justify-content: center;
+  box-shadow: 10px 5px 5px black;
+}
+
+.tamanho-imagem {
+  width: 80px;
+}
+
+#softSkills h3 {
+  width: 300px;
+}
+
+#softSkills {
+  /* width: 50%; */
+  text-align: center;
+}
+
+#hardSkills {
+  text-align: center;
+}
+
+#frameworks {
+  text-align: center;
+}
+
+.divInterna {
+  /* border: 1px solid black; */
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #redesSociais {
   color: white;
-  width: 1340px;
   text-align: center;
   padding: 10px;
   background-color: rgb(16, 16, 100);
 }
 
 footer {
-  width: 1340px;
   padding: 10px;
   text-align: center;
   background-color: pink;
@@ -134,5 +146,4 @@ footer {
   background-image: none;
   width: 50px;
   padding: 25px;
-
 }
