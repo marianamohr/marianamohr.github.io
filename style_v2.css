@@ -87,12 +87,14 @@ body {
 .habilidades-org {
   display: flex;
   margin-bottom: 5%;
+  justify-content: center;
+
 }
 
 .img-fundo {
   background-color: white;
-  width: 150px;
-  height: 190px;
+  width: 100px;
+  height: 150px;
   text-align: center;
   border-radius: 5px;
   margin: 5px;
@@ -100,25 +102,66 @@ body {
   box-shadow: 10px 5px 5px black;
 }
 
-.tamanho-imagem {
-  width: 80px;
+.img-fundo h1 {
+  font-size: 14px;
+
 }
 
-#softSkills h3 {
-  width: 300px;
+.tamanho-imagem {
+  width: 70px;
 }
 
 #softSkills {
   /* width: 50%; */
+  /* border: 1px solid black; */
   text-align: center;
+  max-width: 30%;
+  margin: 15px;
+}
+
+#softSkills h3 {
+  /* border: 1px solid black; */
+  width: 35%;
+  text-align: start;
+  padding-left: 15px;
+  background-color: rgb(16, 16, 100);
+  color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 #hardSkills {
+  /* border: 1px solid black; */
   text-align: center;
+  max-width: 30%;
+  margin: 15px;
+}
+
+#hardSkills h3 {
+  /* border: 1px solid black; */
+  width: 40%;
+  text-align: start;
+  padding-left: 15px;
+  background-color: rgb(16, 16, 100);
+  color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 #frameworks {
+  /* border: 1px solid black; */
   text-align: center;
+  max-width: 30%;
+  margin: 15px;
+
+}
+
+#frameworks h3 {
+  /* border: 1px solid black; */
+  width: 60%;
+  text-align: start;
+  padding-left: 15px;
+  background-color: rgb(16, 16, 100);
+  color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 .divInterna {
@@ -129,12 +172,65 @@ body {
   justify-content: center;
 }
 
-#redesSociais {
-  color: white;
-  text-align: center;
-  padding: 10px;
+#portifolio {
+  padding: 15px;
+  padding-bottom: 25px;
   background-color: rgb(16, 16, 100);
 }
+
+#portifolio h2 {
+  color: white;
+}
+
+.portifolio-grid {
+  display: flex;
+
+}
+.portifolio-grid  a {
+ text-decoration: none;
+
+}
+#redesSociais {
+  padding: 10px;
+  background-color: pink;
+}
+
+#redesSociais h2 {}
+
+.imgRedesSociais {
+
+  width: 35px;
+  margin-left: 10px;
+
+}
+
+.imgPortfolio {
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+.boxPortifolio {
+  background-color: white;
+  width: 120px;
+  height: 190px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  justify-content: center;
+  box-shadow: 10px 5px 5px black;
+  padding-bottom: 15px;
+}
+.boxPortifolio h3 {
+padding-top: 15px;
+color: black;
+
+}
+
+
+
+
 
 footer {
   padding: 10px;
@@ -142,8 +238,4 @@ footer {
   background-color: pink;
 }
 
-.imgRedesSociais {
-  background-image: none;
-  width: 50px;
-  padding: 25px;
-}
+footer p {}
