@@ -1,241 +1,485 @@
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B1B1B5;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .menu a {
+    color: #13293d;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 3px;
+    /* border: 1px solid black; */
+  }
+
+  .menu a:hover {
+    color: #006494;
+    border-bottom: 3px solid #13293d;
+  }
+
+  #apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 650px;
+    background-color: rgb(28, 28, 143);
+  }
+
+  .fotoPerfil {
+    width: 75%;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+  }
+
+  #apresentacao h1 {
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 800;
+  }
+
+  #quemsoueu {
+    display: flex;
+    height: 950px;
+    padding: 30px;
+    background-color: #B1B1B5;
+  }
+
+  .descritivo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: #323233;
+  }
+
+
+  #experiencias {
+    padding: 10px;
+    background-color: rgb(16, 16, 100);
+  }
+
+  #experiencias h2 {
+    color: white;
+  }
+
+  .desktop {
+    display: none;
+
+  }
+
+  .mobile {
+    width: 90vw;
+    padding: 0;
+
+  }
+
+
+
+  #habilidades {
+    padding: 10px;
+    background-color: #B1B1B5;
+  }
+
+  #habilidades h2 {
+    color: #323233;
+  }
+
+  .habilidades-org {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
+
+  .img-fundo {
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+  }
+
+  .img-fundo h1 {
+    font-size: 14px;
+
+  }
+
+  .tamanho-imagem {
+    width: 70px;
+  }
+
+  #softSkills {
+    text-align: center;
+    /* max-width: 30%; */
+    margin: 15px;
+  }
+
+  #softSkills h3 {
+    width: 40%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  #hardSkills {
+    text-align: center;
+    /* max-width: 30%; */
+    margin: 15px;
+  }
+
+  #hardSkills h3 {
+    width: 45%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  #frameworks {
+    text-align: center;
+    /* max-width: 30%; */
+    margin: 15px;
+
+  }
+
+  #frameworks h3 {
+    width: 50%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  .divInterna {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  #portifolio {
+    padding: 15px;
+    padding-bottom: 25px;
+    background-color: rgb(16, 16, 100);
+  }
+
+  #portifolio h2 {
+    color: white;
+  }
+
+  .portifolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portifolio-grid a {
+    text-decoration: none;
+  }
+
+  #redesSociais h2 {}
+
+  .imgRedesSociais {
+    width: 35px;
+    margin-left: 10px;
+  }
+
+  .imgPortfolio {
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .boxPortifolio {
+    background-color: white;
+    width: 120px;
+    height: 190px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+    padding-bottom: 15px;
+  }
+
+  .boxPortifolio h3 {
+    padding-top: 15px;
+    color: black;
+  }
+
+
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #B1B1B5;
+  }
+
+  footer p {
+    color: #323233;
+  }
 }
 
-body {
-  font-family: 'Heebo', sans-serif;
-  margin: 0px;
-  border: 5px white solid;
-  width: 1300px;
+@media screen and (min-width: 501px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    background-color: #B1B1B5;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .menu a {
+    color: #13293d;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .menu a:hover {
+    color: #006494;
+    border-bottom: 3px solid #13293d;
+  }
+
+  #apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 450px;
+    background-color: rgb(28, 28, 143);
+  }
+
+  #apresentacao h1 {
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .fotoPerfil {
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border: 5px solid whitesmoke;
+  }
+
+  #quemsoueu {
+    display: flex;
+    height: 400px;
+    padding: 40px;
+    background-color: #B1B1B5;
+  }
+
+  .descritivo {
+    padding: 10px;
+    padding-top: 5%;
+    line-height: 30px;
+    text-align: center;
+    color: #323233;
+  }
+
+  #experiencias {
+    padding: 10px;
+    background-color: rgb(16, 16, 100);
+  }
+
+
+  .vivencia-profissional {
+    width: 100%;
+  }
+
+  #experiencias h2 {
+    color: white;
+  }
+
+  .desktop {
+    width: 90vw;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #habilidades {
+    padding: 10px;
+    background-color: #B1B1B5;
+  }
+
+  #habilidades h2 {
+    color: #323233;
+  }
+
+  .habilidades-org {
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+
+  .img-fundo {
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+  }
+
+  .img-fundo h1 {
+    font-size: 14px;
+
+  }
+
+  .tamanho-imagem {
+    width: 70px;
+  }
+
+  #softSkills {
+    text-align: center;
+    max-width: 30%;
+    margin: 15px;
+  }
+
+  #softSkills h3 {
+    width: 35%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  #hardSkills {
+    text-align: center;
+    max-width: 30%;
+    margin: 15px;
+  }
+
+  #hardSkills h3 {
+    width: 40%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  #frameworks {
+    text-align: center;
+    max-width: 30%;
+    margin: 15px;
+
+  }
+
+  #frameworks h3 {
+    width: 60%;
+    text-align: start;
+    padding-left: 15px;
+    background-color: rgb(16, 16, 100);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  .divInterna {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #portifolio {
+    padding: 15px;
+    padding-bottom: 25px;
+    background-color: rgb(16, 16, 100);
+  }
+
+  #portifolio h2 {
+    color: white;
+  }
+
+  .portifolio-grid {
+    display: flex;
+  }
+
+  .portifolio-grid a {
+    text-decoration: none;
+  }
+
+  #redesSociais h2 {}
+
+  .imgRedesSociais {
+    width: 35px;
+    margin-left: 10px;
+  }
+
+  .imgPortfolio {
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .boxPortifolio {
+    background-color: white;
+    width: 120px;
+    height: 190px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+    padding-bottom: 15px;
+  }
+
+  .boxPortifolio h3 {
+    padding-top: 15px;
+    color: black;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #B1B1B5;
+  }
+
+  footer p {
+    color: #323233;
+  }
 }
-
-.menu {
-  display: flex;
-  background-color: pink;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.menu a {
-  color: #13293d;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.menu a:hover {
-  color: #006494;
-  border-bottom: 3px solid #13293d;
-}
-
-#apresentacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  height: 450px;
-  background-color: rgb(16, 16, 100);
-}
-
-#apresentacao h1 {
-  width: 50%;
-  color: white;
-  text-align: center;
-  font-family: cursive;
-  font-weight: 800;
-}
-
-.fotoPerfil {
-  width: 25%;
-  border-radius: 50%;
-  margin-top: 15%;
-  margin-bottom: 15%;
-  border: 5px solid whitesmoke;
-}
-
-#quemsoueu {
-  display: flex;
-  height: 400px;
-  padding: 40px;
-  background-color: pink;
-}
-
-.descritivo {
-  padding: 10px;
-  padding-top: 5%;
-  line-height: 30px;
-  text-align: center;
-}
-
-#experiencias {
-  padding: 10px;
-  background-color: rgb(16, 16, 100);
-}
-
-.vivencia-profissional {
-  width: 1250px;
-}
-
-#experiencias h2 {
-  color: white;
-}
-
-#habilidades {
-  padding: 10px;
-  background-color: pink;
-}
-
-.habilidades-org {
-  display: flex;
-  margin-bottom: 5%;
-  justify-content: center;
-
-}
-
-.img-fundo {
-  background-color: white;
-  width: 100px;
-  height: 150px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 5px;
-  justify-content: center;
-  box-shadow: 10px 5px 5px black;
-}
-
-.img-fundo h1 {
-  font-size: 14px;
-
-}
-
-.tamanho-imagem {
-  width: 70px;
-}
-
-#softSkills {
-  /* width: 50%; */
-  /* border: 1px solid black; */
-  text-align: center;
-  max-width: 30%;
-  margin: 15px;
-}
-
-#softSkills h3 {
-  /* border: 1px solid black; */
-  width: 35%;
-  text-align: start;
-  padding-left: 15px;
-  background-color: rgb(16, 16, 100);
-  color: white;
-  box-shadow: 5px 5px 5px black;
-}
-
-#hardSkills {
-  /* border: 1px solid black; */
-  text-align: center;
-  max-width: 30%;
-  margin: 15px;
-}
-
-#hardSkills h3 {
-  /* border: 1px solid black; */
-  width: 40%;
-  text-align: start;
-  padding-left: 15px;
-  background-color: rgb(16, 16, 100);
-  color: white;
-  box-shadow: 5px 5px 5px black;
-}
-
-#frameworks {
-  /* border: 1px solid black; */
-  text-align: center;
-  max-width: 30%;
-  margin: 15px;
-
-}
-
-#frameworks h3 {
-  /* border: 1px solid black; */
-  width: 60%;
-  text-align: start;
-  padding-left: 15px;
-  background-color: rgb(16, 16, 100);
-  color: white;
-  box-shadow: 5px 5px 5px black;
-}
-
-.divInterna {
-  /* border: 1px solid black; */
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#portifolio {
-  padding: 15px;
-  padding-bottom: 25px;
-  background-color: rgb(16, 16, 100);
-}
-
-#portifolio h2 {
-  color: white;
-}
-
-.portifolio-grid {
-  display: flex;
-
-}
-.portifolio-grid  a {
- text-decoration: none;
-
-}
-#redesSociais {
-  padding: 10px;
-  background-color: pink;
-}
-
-#redesSociais h2 {}
-
-.imgRedesSociais {
-
-  width: 35px;
-  margin-left: 10px;
-
-}
-
-.imgPortfolio {
-  width: 100px;
-  margin: 5px;
-  border-radius: 5px;
-
-}
-
-.boxPortifolio {
-  background-color: white;
-  width: 120px;
-  height: 190px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 10px;
-  justify-content: center;
-  box-shadow: 10px 5px 5px black;
-  padding-bottom: 15px;
-}
-.boxPortifolio h3 {
-padding-top: 15px;
-color: black;
-
-}
-
-
-
-
-
-footer {
-  padding: 10px;
-  text-align: center;
-  background-color: pink;
-}
-
-footer p {}
