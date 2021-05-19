@@ -13,7 +13,4 @@ function abrirMenu() {
         menuSuspenso.classList.add('menu-suspenso');
     }
 
-}
-
-
 menu.addEventListener('click', abrirMenu);
